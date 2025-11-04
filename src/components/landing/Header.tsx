@@ -26,8 +26,8 @@ export function Header() {
           <Image
             src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/61e60548-8a3b-4395-9430-6712313627f1_sign-ai-logo-672x222.png"
             alt="SignAI Logo"
-            width={100}
-            height={33}
+            width={120}
+            height={40}
           />
         </Link>
 
@@ -65,8 +65,8 @@ export function Header() {
                  <Image
                     src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/61e60548-8a3b-4395-9430-6712313627f1_sign-ai-logo-672x222.png"
                     alt="SignAI Logo"
-                    width={100}
-                    height={33}
+                    width={120}
+                    height={40}
                   />
               </Link>
               <div className="flex flex-col space-y-3">
