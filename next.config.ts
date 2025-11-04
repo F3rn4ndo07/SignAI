@@ -75,6 +75,12 @@ const nextConfig: NextConfig = {
         hostname: 'static.wikia.nocookie.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i.ibb.co',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

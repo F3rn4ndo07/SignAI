@@ -11,7 +11,7 @@ export function Footer() {
           <div className="mb-4 md:mb-0">
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/87961559-7053-4a78-9a2f-14a055375549_sign-ai-logo-672x222-1.png"
+                src="https://i.ibb.co/mS1m3Nf/sign-ai-logo-672x222-1.png"
                 alt="SignAI Logo"
                 width={120}
                 height={40}

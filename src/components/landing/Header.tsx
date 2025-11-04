@@ -24,7 +24,7 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image
-            src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/87961559-7053-4a78-9a2f-14a055375549_sign-ai-logo-672x222-1.png"
+            src="https://i.ibb.co/mS1m3Nf/sign-ai-logo-672x222-1.png"
             alt="SignAI Logo"
             width={120}
             height={40}
@@ -63,7 +63,7 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                  <Image
-                    src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/87961559-7053-4a78-9a2f-14a055375549_sign-ai-logo-672x222-1.png"
+                    src="https://i.ibb.co/mS1m3Nf/sign-ai-logo-672x222-1.png"
                     alt="SignAI Logo"
                     width={120}
                     height={40}
