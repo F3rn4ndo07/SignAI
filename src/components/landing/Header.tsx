@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Logo } from '../Logo';
 
 const navLinks = [
   { href: '#como-funciona', label: 'Cómo funciona' },
@@ -21,14 +22,9 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex items-center justify-between max-w-screen-2xl py-3">
-        <a href="/">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-            alt="SignAI Logo"
-            className="h-8 w-auto"
-          />
-        </a>
+        <Link href="/" aria-label="SignAI Home">
+          <Logo className="h-8 w-auto" />
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -60,14 +56,9 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <a href="/" className="mb-6 block">
-                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-                  alt="SignAI Logo"
-                  className="h-8 w-auto"
-                />
-              </a>
+              <Link href="/" className="mb-6 block" onClick={() => setIsMobileMenuOpen(false)}>
+                 <Logo className="h-8 w-auto" />
+              </Link>
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
                   <Link
