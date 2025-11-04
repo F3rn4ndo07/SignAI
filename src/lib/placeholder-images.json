@@ -9,37 +9,37 @@
     {
       "id": "testimonial-avatar-2",
       "description": "Avatar for a testimonial",
-      "imageUrl": "https://images.unsplash.com/photo-1521146764736-56c929d59c83?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2MjE4ODQxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1689530775582-83b8abdb5020?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
       "imageHint": "person face"
     },
     {
       "id": "testimonial-avatar-3",
       "description": "Avatar for a testimonial",
-      "imageUrl": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwZXJzb24lMjBmYWNlfGVufDB8fHx8MTc2MjE4ODQxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVvcGxlfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000",
       "imageHint": "person face"
     },
     {
       "id": "company-logo-1",
       "description": "Logo de Essalud",
-      "imageUrl": "https://images.unsplash.com/photo-1711715337544-e6c99dbd801a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoZWFsdGglMjBsb2dvfGVufDB8fHx8MTc2MjE0ODIxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.seeklogo.com/logo-png/20/1/essalud-logo-png_seeklogo-205729.png",
       "imageHint": "health logo"
     },
     {
       "id": "company-logo-2",
       "description": "Logo del Gobierno del Perú",
-      "imageUrl": "https://images.unsplash.com/photo-1676969048242-0669dcb69762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjIxOTQ2OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://seeklogo.com/images/G/gobierno-del-peru-logo-EB66BD0DEC-seeklogo.com.png",
       "imageHint": "government logo"
     },
     {
       "id": "company-logo-3",
       "description": "Logo de Clínica San Pablo",
-      "imageUrl": "https://images.unsplash.com/photo-1643531176283-4bc2d730d654?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjbGluaWMlMjBsb2dvfGVufDB8fHx8MTc2MjIyNDU2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://asdf.amerins.com/uploads/medium_Clinica_San_Pablo_Logo_86d78dd3b2.jpeg",
       "imageHint": "clinic logo"
     },
     {
       "id": "company-logo-4",
       "description": "Logo de Ministerio de Salud del Perú",
-      "imageUrl": "https://images.unsplash.com/photo-1596520124235-cb64aa3e2214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtaW5pc3RyeSUyMGxvZ298ZW58MHx8fHwxNzYyMjI0NTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://hospitecnia.com/sites/default/files/styles/node_teaser/public/portada1588292056.png?itok=nI0E9VP2",
       "imageHint": "ministry logo"
     },
     {

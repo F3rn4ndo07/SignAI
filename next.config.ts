@@ -23,7 +23,7 @@ const nextConfig: NextConfig = {
         pathname: '/**',
       },
       {
-        protocol: 'https',
+        protocol: 'https://',
         hostname: 'picsum.photos',
         port: '',
         pathname: '/**',
@@ -33,7 +33,31 @@ const nextConfig: NextConfig = {
         hostname: 'www.mercadonegro.pe',
         port: '',
         pathname: '/**',
-      }
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.seeklogo.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'seeklogo.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'asdf.amerins.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'hospitecnia.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };

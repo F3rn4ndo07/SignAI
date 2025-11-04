@@ -1,6 +1,7 @@
 import Link from 'next/link';
-import { MessageSquareHeart, Twitter, Linkedin, Facebook } from 'lucide-react';
+import { Twitter, Linkedin, Facebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export function Footer() {
   return (
@@ -8,8 +9,12 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-2 mb-4 md:mb-0">
-            <MessageSquareHeart className="h-6 w-6 text-primary" />
-            <span className="font-bold text-lg">SignAI</span>
+             <Image
+              src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/61e60548-8a3b-4395-9430-6712313627f1_sign-ai-logo-672x222.png"
+              alt="SignAI Logo"
+              width={120}
+              height={40}
+            />
           </div>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
             <Link href="#" className="hover:text-primary transition-colors">Política de Privacidad</Link>
