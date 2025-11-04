@@ -27,9 +27,9 @@ export function Header() {
             <Image
               src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
               alt="SignAI Logo"
-              width={100}
-              height={25}
-              className="h-auto"
+              width={128}
+              height={32}
+              className="h-8 w-auto"
             />
           </Link>
         </div>
