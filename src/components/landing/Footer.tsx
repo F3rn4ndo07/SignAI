@@ -1,9 +1,7 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { Twitter, Linkedin, Facebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-
-const logoUrl = 'https://i.ibb.co/dK5C9v5/sign-ai-logo.png';
+import { Logo } from './Logo';
 
 export function Footer() {
   return (
@@ -11,13 +9,7 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <Link href="/" aria-label="SignAI Home">
-             <Image
-                src={logoUrl}
-                alt="SignAI"
-                width={316}
-                height={120}
-                className="h-10 w-auto object-contain"
-              />
+             <Logo className="h-10 w-auto" />
           </Link>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground mt-4 md:mt-0">
             <Link href="#" className="hover:text-primary transition-colors">Política de Privacidad</Link>

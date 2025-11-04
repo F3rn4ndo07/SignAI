@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Logo } from './Logo';
 
 const navLinks = [
   { href: '#como-funciona', label: 'Cómo funciona' },
@@ -16,23 +16,14 @@ const navLinks = [
   { href: '#faq', label: 'FAQ' },
 ];
 
-const logoUrl = 'https://i.ibb.co/dK5C9v5/sign-ai-logo.png';
-
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex items-center justify-between max-w-screen-2xl py-3">
-        <Link href="/" aria-label="SignAI Home" className="flex items-center">
-          <Image
-            src={logoUrl}
-            alt="SignAI"
-            width={316}
-            height={120}
-            className="h-8 md:h-9 w-auto object-contain"
-            priority
-          />
+        <Link href="/" aria-label="SignAI Home">
+          <Logo className="h-8 md:h-9 w-auto" />
         </Link>
 
         {/* Desktop Navigation */}
@@ -66,13 +57,7 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
               <Link href="/" className="mb-6 block" onClick={() => setIsMobileMenuOpen(false)}>
-                 <Image
-                    src={logoUrl}
-                    alt="SignAI"
-                    width={316}
-                    height={120}
-                    className="h-8 w-auto object-contain"
-                  />
+                 <Logo className="h-8 w-auto" />
               </Link>
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
