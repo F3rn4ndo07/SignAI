@@ -1,9 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Twitter, Linkedin, Facebook } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
+const TikTokIcon = (props: React.SVGProps<SVGSVGElement>) => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" {...props}>
+      <path d="M16.6 5.82h2.53V0.64h-3.66c-4.44 0-7.48 2.66-7.48 7.48v3.47H5.47v5.12h2.52v8.64h5.12v-8.64h3.42l.53-5.12h-3.95v-2.8c0-1.26.63-2.35 2.48-2.35z"></path>
+    </svg>
+  );
 
 export function Footer() {
   const logoImage = PlaceHolderImages.find((img) => img.id === 'sign-ai-logo');
@@ -28,18 +33,13 @@ export function Footer() {
           </div>
           <div className="flex items-center space-x-2 mt-4 md:mt-0">
              <Button variant="ghost" size="icon" asChild>
-                <Link href="#" aria-label="Twitter">
-                    <Twitter className="h-5 w-5 text-muted-foreground hover:text-primary" />
+                <Link href="https://www.instagram.com/signai_upc/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <Instagram className="h-5 w-5 text-muted-foreground hover:text-primary" />
                 </Link>
             </Button>
             <Button variant="ghost" size="icon" asChild>
-                <Link href="#" aria-label="LinkedIn">
-                    <Linkedin className="h-5 w-5 text-muted-foreground hover:text-primary" />
-                </Link>
-            </Button>
-            <Button variant="ghost" size="icon" asChild>
-                <Link href="#" aria-label="Facebook">
-                    <Facebook className="h-5 w-5 text-muted-foreground hover:text-primary" />
+                <Link href="https://www.tiktok.com/@signai_upc" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                    <TikTokIcon className="h-5 w-5 text-muted-foreground hover:text-primary" />
                 </Link>
             </Button>
           </div>
