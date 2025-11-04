@@ -12,7 +12,7 @@ export function Footer() {
             <img
               src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
               alt="SignAI Logo"
-              style={{ width: '100px', height: 'auto' }}
+              className="w-[100px] h-auto"
             />
           </Link>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
