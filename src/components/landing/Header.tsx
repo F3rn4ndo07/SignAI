@@ -25,11 +25,11 @@ export function Header() {
         <div className="mr-6 flex items-center">
           <Link href="/">
             <Image
-              src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+              src="/sign-ai-logo.png"
               alt="SignAI Logo"
               width={100}
               height={25}
-              className="h-auto"
+              className="h-auto w-[100px]"
             />
           </Link>
         </div>
@@ -67,11 +67,11 @@ export function Header() {
               <div className='mb-6'>
                   <Link href="/">
                     <Image
-                      src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                      src="/sign-ai-logo.png"
                       alt="SignAI Logo"
                       width={100}
                       height={25}
-                      className="h-auto"
+                      className="h-auto w-[100px]"
                     />
                   </Link>
               </div>

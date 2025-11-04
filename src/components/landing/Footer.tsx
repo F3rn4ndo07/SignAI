@@ -11,11 +11,11 @@ export function Footer() {
           <div className="mb-4 md:mb-0">
             <Link href="/">
               <Image
-                src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                src="/sign-ai-logo.png"
                 alt="SignAI Logo"
                 width={120}
                 height={30}
-                className="h-auto"
+                className="h-auto w-[120px]"
               />
             </Link>
           </div>
