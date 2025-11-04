@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import Image from 'next/image';
 
 const navLinks = [
   { href: '#como-funciona', label: 'Cómo funciona' },
@@ -20,14 +21,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-14 max-w-screen-2xl items-stretch">
-        <div className="mr-6 flex items-center">
-          <Link href="/">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
+      <div className="container flex items-center justify-between py-2 max-w-screen-2xl">
+        <div className="flex items-center">
+          <Link href="/" className="flex items-center">
             <img
               src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
               alt="SignAI Logo"
-              style={{ height: '32px' }}
+              className="h-8 w-auto"
             />
           </Link>
         </div>
@@ -45,7 +45,7 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="flex flex-1 items-center justify-end space-x-2">
+        <div className="flex items-center justify-end space-x-2">
           <Button asChild className="hidden md:inline-flex" size="sm">
             <Link href="#contacto">Solicitar Piloto</Link>
           </Button>
@@ -64,7 +64,6 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <div className='mb-6'>
                   <Link href="/">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img
                       src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                       alt="SignAI Logo"
