@@ -1,4 +1,4 @@
-import { HubSpotForm } from './HubSpotForm';
+import { SimpleForm } from './SimpleForm';
 
 export function Contact() {
   return (
@@ -21,11 +21,7 @@ export function Contact() {
           <div className="w-full bg-card p-8 rounded-xl shadow-2xl border">
             <h3 className="text-2xl font-bold mb-2 text-center">Solicita tu piloto</h3>
             <p className="text-muted-foreground text-center mb-6">Es rápido, fácil y sin compromiso.</p>
-            <HubSpotForm
-              portalId={process.env.NEXT_PUBLIC_HS_PORTAL_ID || ''}
-              formId={process.env.NEXT_PUBLIC_HS_FORM_ID || ''}
-              region={process.env.NEXT_PUBLIC_HS_REGION || 'na1'}
-            />
+            <SimpleForm />
           </div>
         </div>
       </div>
