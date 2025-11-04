@@ -26,7 +26,7 @@ export function Header() {
           <img
             src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
             alt="SignAI Logo"
-            width="100"
+            className="w-[100px]"
           />
         </Link>
 
@@ -65,7 +65,7 @@ export function Header() {
                   <img
                     src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                     alt="SignAI Logo"
-                    width="100"
+                    className="w-[100px]"
                   />
               </Link>
               <div className="flex flex-col space-y-3">
