@@ -63,6 +63,18 @@ const nextConfig: NextConfig = {
         hostname: 'storage.googleapis.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ctspcallao.org.pe',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'static.wikia.nocookie.net',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
