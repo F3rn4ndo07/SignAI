@@ -20,7 +20,7 @@ export function Logo(props: React.SVGProps<SVGSVGElement>) {
       <path fill="hsl(var(--primary))" d="M265.52 47.9h8.5v34.18h-8.5z"></path>
       <g>
         <path
-          fill="hsl(var(--primary))"
+          fill="hsl(var(--accent))"
           d="M33.66 43.62H15.82V25.78h17.84zm-3.3-3.3H19.12v-11.2h11.24z"
         ></path>
         <path
