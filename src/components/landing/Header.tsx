@@ -18,7 +18,7 @@ const navLinks = [
 ];
 
 export function Header() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenu] = useState(false);
   const logoImage = PlaceHolderImages.find((img) => img.id === 'sign-ai-logo');
 
   return (
@@ -56,7 +56,7 @@ export function Header() {
           </Button>
           
           {/* Mobile Navigation */}
-          <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
+          <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenu}>
             <SheetTrigger asChild>
               <Button
                 variant="ghost"
@@ -67,7 +67,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <Link href="/" className="mb-6 block" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/" className="mb-6 block" onClick={() => setIsMobileMenu(false)}>
                  {logoImage && (
                     <Image
                       src={logoImage.imageUrl}
@@ -83,7 +83,7 @@ export function Header() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    onClick={() => setIsMobileMenuOpen(false)}
+                    onClick={() => setIsMobileMenu(false)}
                     className="transition-colors hover:text-primary p-2 rounded-l-md"
                   >
                     {link.label}
@@ -91,7 +91,7 @@ export function Header() {
                 ))}
               </div>
                <Button asChild className="mt-6" size="sm">
-                <Link href="#contacto" onClick={() => setIsMobileMenuOpen(false)}>Solicitar Piloto</Link>
+                <Link href="#contacto" onClick={() => setIsMobileMenu(false)}>Solicitar Piloto</Link>
               </Button>
             </SheetContent>
           </Sheet>
