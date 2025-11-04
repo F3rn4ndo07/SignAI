@@ -26,7 +26,7 @@ export function Header() {
             <img
               src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
               alt="SignAI Logo"
-              className="block w-[100px] h-auto flex-shrink-0"
+              style={{ width: '100px', height: 'auto' }}
             />
         </Link>
 
@@ -65,7 +65,7 @@ export function Header() {
                   <img
                     src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                     alt="SignAI Logo"
-                    className="block w-[100px] h-auto flex-shrink-0"
+                    style={{ width: '100px', height: 'auto' }}
                   />
               </Link>
               <div className="flex flex-col space-y-3">
