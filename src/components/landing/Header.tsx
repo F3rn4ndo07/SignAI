@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -22,12 +23,15 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-6 flex items-center">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="https://placehold.co/100x30/000000/FFFFFF?text=SignAI"
-            alt="SignAI Logo"
-            className="h-8 w-auto"
-          />
+          <Link href="/">
+            <Image
+              src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+              alt="SignAI Logo"
+              width={100}
+              height={25}
+              className="h-auto"
+            />
+          </Link>
         </div>
 
         {/* Desktop Navigation */}
@@ -61,12 +65,15 @@ export function Header() {
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
               <div className='mb-6'>
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src="https://placehold.co/100x30/000000/FFFFFF?text=SignAI"
-                    alt="SignAI Logo"
-                    className="h-8 w-auto"
-                  />
+                  <Link href="/">
+                    <Image
+                      src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                      alt="SignAI Logo"
+                      width={100}
+                      height={25}
+                      className="h-auto"
+                    />
+                  </Link>
               </div>
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
