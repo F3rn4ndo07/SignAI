@@ -10,11 +10,11 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="flex items-center space-x-2">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
                 alt="SignAI Logo"
-                width={120}
-                height={40}
+                style={{ width: '120px', height: 'auto' }}
               />
             </Link>
           </div>
