@@ -11,7 +11,7 @@ export function Footer() {
           <div className="mb-4 md:mb-0">
             <Link href="/" className="flex items-center space-x-2">
               <Image
-                src="https://i.ibb.co/mS1m3Nf/sign-ai-logo-672x222-1.png"
+                src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
                 alt="SignAI Logo"
                 width={120}
                 height={40}

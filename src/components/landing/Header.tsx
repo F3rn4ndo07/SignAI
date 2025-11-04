@@ -24,7 +24,7 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <Link href="/" className="mr-6 flex items-center space-x-2">
           <Image
-            src="https://i.ibb.co/mS1m3Nf/sign-ai-logo-672x222-1.png"
+            src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
             alt="SignAI Logo"
             width={120}
             height={40}
@@ -63,7 +63,7 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                  <Image
-                    src="https://i.ibb.co/mS1m3Nf/sign-ai-logo-672x222-1.png"
+                    src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
                     alt="SignAI Logo"
                     width={120}
                     height={40}
