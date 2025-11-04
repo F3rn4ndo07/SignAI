@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { Twitter, Linkedin, Facebook } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import Image from 'next/image';
 
 export function Footer() {
   return (
