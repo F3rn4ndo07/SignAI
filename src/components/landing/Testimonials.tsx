@@ -87,18 +87,16 @@ export function Testimonials() {
             <CarouselContent>
               {logos.map((logo) => (
                 <CarouselItem key={logo.id} className="md:basis-1/3 lg:basis-1/5">
-                  <div className="p-1">
-                    <div className="flex aspect-video items-center justify-center p-6 grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
+                  <div className="flex items-center justify-center p-6 h-24">
                       <Image
                         src={logo.imageUrl}
                         alt={logo.description}
-                        width={158}
-                        height={48}
+                        width={150}
+                        height={40}
                         className="object-contain"
                         data-ai-hint={logo.imageHint}
                       />
                     </div>
-                  </div>
                 </CarouselItem>
               ))}
             </CarouselContent>
