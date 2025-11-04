@@ -21,14 +21,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center">
+        <div className="mr-6 flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+            src="https://placehold.co/100x30/000000/FFFFFF?text=SignAI"
             alt="SignAI Logo"
             className="h-8 w-auto"
           />
-        </Link>
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -60,14 +60,14 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <Link href="/" onClick={() => setIsMobileMenuOpen(false)}>
+              <div className='mb-6'>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                    src="https://placehold.co/100x30/000000/FFFFFF?text=SignAI"
                     alt="SignAI Logo"
-                    className="h-8 w-auto mb-6"
+                    className="h-8 w-auto"
                   />
-              </Link>
+              </div>
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
                   <Link

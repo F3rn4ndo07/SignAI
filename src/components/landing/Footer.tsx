@@ -7,14 +7,14 @@ export function Footer() {
     <footer className="bg-primary/5 border-t">
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <Link href="/" className="mb-4 md:mb-0">
+          <div className="mb-4 md:mb-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+              src="https://placehold.co/100x30/000000/FFFFFF?text=SignAI"
               alt="SignAI Logo"
               className="w-[100px] h-auto"
             />
-          </Link>
+          </div>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
             <Link href="#" className="hover:text-primary transition-colors">Política de Privacidad</Link>
             <Link href="#contacto" className="hover:text-primary transition-colors">Contacto</Link>
