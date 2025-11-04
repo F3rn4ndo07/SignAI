@@ -9,12 +9,14 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/" className="flex items-center space-x-2">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-                alt="SignAI Logo"
-                className="w-[100px]"
-              />
+              <div className="w-[100px]">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                  alt="SignAI Logo"
+                  className="w-full"
+                />
+              </div>
             </Link>
           </div>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
