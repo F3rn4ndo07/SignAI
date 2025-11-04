@@ -8,15 +8,13 @@ export function Footer() {
       <div className="container mx-auto px-4 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="w-[100px]">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-                  alt="SignAI Logo"
-                  className="w-full"
-                />
-              </div>
+            <Link href="/" className="flex items-center">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                alt="SignAI Logo"
+                className="w-[100px]"
+              />
             </Link>
           </div>
           <div className="flex items-center space-x-6 text-sm text-muted-foreground">
