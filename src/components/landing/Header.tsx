@@ -21,14 +21,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <Link href="/" className="mr-6 flex items-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-              alt="SignAI Logo"
-              style={{ width: '100px', height: 'auto' }}
-            />
-        </Link>
+        <div className="mr-6 relative">
+          <Link href="/" className="absolute inset-0 z-10" aria-label="SignAI Home"></Link>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+            alt="SignAI Logo"
+            style={{ width: '100px', height: 'auto' }}
+          />
+        </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -60,14 +61,15 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <Link href="/" className="mr-6 flex items-center mb-6" onClick={() => setIsMobileMenuOpen(false)}>
+              <div className="relative mb-6" onClick={() => setIsMobileMenuOpen(false)}>
+                  <Link href="/" className="absolute inset-0 z-10" aria-label="SignAI Home"></Link>
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                     alt="SignAI Logo"
                     style={{ width: '100px', height: 'auto' }}
                   />
-              </Link>
+              </div>
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
                   <Link
