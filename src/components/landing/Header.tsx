@@ -2,8 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { Menu, X } from 'lucide-react';
+import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 
@@ -24,12 +23,11 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-6 flex items-center">
           <Link href="/">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
               alt="SignAI Logo"
-              width={128}
-              height={32}
-              className="h-8 w-auto"
+              style={{ height: '32px' }}
             />
           </Link>
         </div>
@@ -66,12 +64,11 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <div className='mb-6'>
                   <Link href="/">
-                    <Image
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
                       src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                       alt="SignAI Logo"
-                      width={100}
-                      height={25}
-                      className="h-auto"
+                      style={{ height: '30px' }}
                     />
                   </Link>
               </div>
