@@ -22,16 +22,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 max-w-screen-2xl items-center">
-        <div className="mr-4 flex">
-          <Link href="/" className="mr-6 flex items-center space-x-2">
-            <Image
-              src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/61e60548-8a3b-4395-9430-6712313627f1_sign-ai-logo-672x222.png"
-              alt="SignAI Logo"
-              width={100}
-              height={33}
-            />
-          </Link>
-        </div>
+        <Link href="/" className="mr-6 flex items-center space-x-2">
+          <Image
+            src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/61e60548-8a3b-4395-9430-6712313627f1_sign-ai-logo-672x222.png"
+            alt="SignAI Logo"
+            width={100}
+            height={33}
+          />
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -63,7 +61,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <Link href="/" className="mr-6 flex items-center space-x-2 mb-6">
+              <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                  <Image
                     src="https://storage.googleapis.com/monorepo-prod-project-resources/user-uploads/61e60548-8a3b-4395-9430-6712313627f1_sign-ai-logo-672x222.png"
                     alt="SignAI Logo"

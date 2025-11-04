@@ -92,8 +92,8 @@ export function Testimonials() {
                       <Image
                         src={logo.imageUrl}
                         alt={logo.description}
-                        width={150}
-                        height={50}
+                        width={158}
+                        height={48}
                         className="object-contain"
                         data-ai-hint={logo.imageHint}
                       />
