@@ -11,9 +11,10 @@ export function Footer() {
             <Link href="/" className="flex items-center space-x-2">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
+                src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                 alt="SignAI Logo"
-                style={{ width: '120px', height: 'auto' }}
+                width={120}
+                height={40}
               />
             </Link>
           </div>

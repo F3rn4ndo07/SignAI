@@ -24,9 +24,10 @@ export function Header() {
         <Link href="/" className="mr-6 flex items-center space-x-2">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
+            src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
             alt="SignAI Logo"
-            style={{ width: '120px', height: 'auto' }}
+            width={120}
+            height={40}
           />
         </Link>
 
@@ -62,10 +63,11 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <Link href="/" className="mr-6 flex items-center space-x-2 mb-6" onClick={() => setIsMobileMenuOpen(false)}>
                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                 <img
-                    src="https://i.ibb.co/tKWxLw6/sign-ai-logo-672x222-1.png"
+                  <img
+                    src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                     alt="SignAI Logo"
-                    style={{ width: '120px', height: 'auto' }}
+                    width={120}
+                    height={40}
                   />
               </Link>
               <div className="flex flex-col space-y-3">
