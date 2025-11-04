@@ -20,39 +20,33 @@
     },
     {
       "id": "company-logo-1",
-      "description": "Placeholder for a company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1627843563095-f6e94676cfe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y29tcGFueSUyMGxvZ298ZW58MHx8fHwxNzYyMTQwNTIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Logo de Essalud",
+      "imageUrl": "https://images.unsplash.com/photo-1711715337544-e6c99dbd801a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxoZWFsdGglMjBsb2dvfGVufDB8fHx8MTc2MjE0ODIxNnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "health logo"
     },
     {
       "id": "company-logo-2",
-      "description": "Placeholder for a company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjIxNDA1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Logo del Gobierno del Perú",
+      "imageUrl": "https://images.unsplash.com/photo-1676969048242-0669dcb69762?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxnb3Zlcm5tZW50JTIwbG9nb3xlbnwwfHx8fDE3NjIxOTQ2OTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "government logo"
     },
     {
       "id": "company-logo-3",
-      "description": "Placeholder for a company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1549924231-f129b911e442?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjIxNDA1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Logo de Clínica San Pablo",
+      "imageUrl": "https://images.unsplash.com/photo-1643531176283-4bc2d730d654?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjbGluaWMlMjBsb2dvfGVufDB8fHx8MTc2MjIyNDU2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "clinic logo"
     },
     {
       "id": "company-logo-4",
-      "description": "Placeholder for a company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1496200186974-4293800e2c20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjIxNDA1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Logo de Ministerio de Salud del Perú",
+      "imageUrl": "https://images.unsplash.com/photo-1596520124235-cb64aa3e2214?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtaW5pc3RyeSUyMGxvZ298ZW58MHx8fHwxNzYyMjI0NTY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "ministry logo"
     },
     {
       "id": "company-logo-5",
-      "description": "Placeholder for a company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1619551734325-81aaf323686c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjIxNDA1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
-    },
-    {
-      "id": "company-logo-6",
-      "description": "Placeholder for a company logo",
-      "imageUrl": "https://images.unsplash.com/photo-1620288627223-53302f4e8c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxjb21wYW55JTIwbG9nb3xlbnwwfHx8fDE3NjIxNDA1MjB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "company logo"
+      "description": "Logo de BCP",
+      "imageUrl": "https://images.unsplash.com/photo-1649734929640-d0c0f79da545?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxiYW5rJTIwbG9nb3xlbnwwfHx8fDE3NjIxMTg0NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bank logo"
     }
   ]
 }

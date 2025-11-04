@@ -102,8 +102,8 @@ export function Testimonials() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="absolute left-[-50px]" />
-            <CarouselNext className="absolute right-[-50px]" />
+            <CarouselPrevious className="absolute left-[-50px] hidden md:flex" />
+            <CarouselNext className="absolute right-[-50px] hidden md:flex" />
           </Carousel>
         </div>
       </div>
