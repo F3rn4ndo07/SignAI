@@ -5,7 +5,6 @@ import Link from 'next/link';
 import { Menu } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import Image from 'next/image';
 
 const navLinks = [
   { href: '#como-funciona', label: 'Cómo funciona' },
@@ -21,13 +20,13 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex items-center justify-between py-2 max-w-screen-2xl">
-        <Link href="/" className="flex items-center">
-          <Image
+      <div className="container flex h-14 items-center justify-between max-w-screen-2xl">
+        <Link href="/">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
             alt="SignAI Logo"
-            width={100}
-            height={25}
+            style={{ height: '32px' }}
           />
         </Link>
 
@@ -63,11 +62,11 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <div className='mb-6'>
                   <Link href="/">
-                    <Image
+                     {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
                       src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                       alt="SignAI Logo"
-                      width={100}
-                      height={25}
+                      style={{ height: '32px' }}
                     />
                   </Link>
               </div>
