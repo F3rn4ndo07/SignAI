@@ -22,7 +22,7 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex items-center justify-between max-w-screen-2xl py-3">
-        <Link href="/" aria-label="SignAI Home">
+        <Link href="/" aria-label="SignAI Home" className="flex items-center">
           <Logo className="h-8 md:h-9 w-auto" />
         </Link>
 
