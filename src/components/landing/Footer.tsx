@@ -13,7 +13,7 @@ export function Footer() {
               <img
                 src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                 alt="SignAI Logo"
-                width={100}
+                width="100"
               />
             </Link>
           </div>
