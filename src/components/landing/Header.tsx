@@ -60,16 +60,14 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left" className="pr-0">
-              <div className='mb-6'>
-                  <Link href="/">
-                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-                      alt="SignAI Logo"
-                      className="h-8 w-auto"
-                    />
-                  </Link>
-              </div>
+              <a href="/" className="mb-6 block">
+                 {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+                  alt="SignAI Logo"
+                  className="h-8 w-auto"
+                />
+              </a>
               <div className="flex flex-col space-y-3">
                 {navLinks.map((link) => (
                   <Link
