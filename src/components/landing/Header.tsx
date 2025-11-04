@@ -21,12 +21,12 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-14 items-center justify-between max-w-screen-2xl">
-        <Link href="/">
+        <Link href="/" className="flex items-center h-full">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
             alt="SignAI Logo"
-            style={{ height: '32px' }}
+            className="h-full w-auto object-contain"
           />
         </Link>
 
@@ -66,7 +66,7 @@ export function Header() {
                     <img
                       src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                       alt="SignAI Logo"
-                      style={{ height: '32px' }}
+                      className="h-8 w-auto object-contain"
                     />
                   </Link>
               </div>
