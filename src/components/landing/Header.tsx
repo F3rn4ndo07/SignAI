@@ -22,15 +22,14 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex items-center justify-between py-2 max-w-screen-2xl">
-        <div className="flex items-center">
-          <Link href="/" className="flex items-center">
-            <img
-              src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
-              alt="SignAI Logo"
-              className="h-8 w-auto"
-            />
-          </Link>
-        </div>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
+            alt="SignAI Logo"
+            width={100}
+            height={25}
+          />
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
@@ -64,10 +63,11 @@ export function Header() {
             <SheetContent side="left" className="pr-0">
               <div className='mb-6'>
                   <Link href="/">
-                    <img
+                    <Image
                       src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                       alt="SignAI Logo"
-                      style={{ height: '30px' }}
+                      width={100}
+                      height={25}
                     />
                   </Link>
               </div>

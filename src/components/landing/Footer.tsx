@@ -10,10 +10,11 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="/">
-              <img
+              <Image
                 src="https://i.ibb.co/3YfRRdwr/sign-ai-logo.png"
                 alt="SignAI Logo"
-                className="h-auto w-[120px]"
+                width={120}
+                height={30}
               />
             </Link>
           </div>
