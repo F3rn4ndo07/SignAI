@@ -10,6 +10,7 @@ import { Label } from '@/components/ui/label';
 import { Form, FormField, FormItem, FormControl, FormMessage } from '@/components/ui/form';
 import { Loader2 } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { trackConversion } from '@/lib/events';
 
 const formSchema = z.object({
   name: z.string().min(2, { message: 'El nombre debe tener al menos 2 caracteres.' }),
@@ -39,6 +40,10 @@ export function SimpleForm() {
     // Fake delay to simulate network request
     await new Promise(resolve => setTimeout(resolve, 1000));
     console.log('Form data submitted:', data);
+    
+    // Track conversion event
+    trackConversion({ eventName: 'solicitud_piloto' });
+    
     setIsLoading(false);
     setIsSubmitted(true);
   };
