@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID ?? 'G-YQJWCPH5FJ';
 
 export const metadata: Metadata = {
   title: 'SignAI: Traducción de Lengua de Señas con IA',
@@ -44,18 +45,19 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
-        {process.env.NEXT_PUBLIC_GA_ID && (
+        {GA_MEASUREMENT_ID && (
           <>
             <Script
               async
-              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              strategy="beforeInteractive"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
             />
-            <Script id="google-analytics">
+            <Script id="google-analytics" strategy="beforeInteractive">
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}');
+                gtag('config', '${GA_MEASUREMENT_ID}');
               `}
             </Script>
           </>
