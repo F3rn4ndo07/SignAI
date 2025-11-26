@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
@@ -6,7 +7,9 @@ import { cn } from '@/lib/utils';
 import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-sans' });
-const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID;
+const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_GA_ID ?? 'G-YQJWCPH5FJ';
+const GOOGLE_SITE_VERIFICATION = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+
 
 export const metadata: Metadata = {
   title: 'SignAI: Traducción de Lengua de Señas con IA',
@@ -45,14 +48,17 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
+        {GOOGLE_SITE_VERIFICATION && (
+          <meta name="google-site-verification" content={GOOGLE_SITE_VERIFICATION} />
+        )}
         {GA_MEASUREMENT_ID && (
           <>
             <Script
               async
-              strategy="beforeInteractive"
+              strategy="afterInteractive"
               src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
             />
-            <Script id="google-analytics-config" strategy="beforeInteractive">
+            <Script id="google-analytics" strategy="afterInteractive">
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
