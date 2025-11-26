@@ -1,4 +1,3 @@
-
 type TrackConversionParams = {
   eventName: string;
   [key: string]: any;

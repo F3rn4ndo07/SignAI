@@ -9,7 +9,7 @@ import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Form, FormField, FormItem, FormControl, FormMessage } from '@/components/ui/form';
 import { Loader2 } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { trackConversion } from '@/lib/events';
 
 const formSchema = z.object({
