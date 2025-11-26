@@ -49,10 +49,10 @@ export default function RootLayout({
           <>
             <Script
               async
-              strategy="afterInteractive"
+              strategy="beforeInteractive"
               src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
             />
-            <Script id="google-analytics" strategy="afterInteractive">
+            <Script id="google-analytics-config" strategy="afterInteractive">
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
